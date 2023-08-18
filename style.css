@@ -11,7 +11,7 @@ body {}
 }
 
 .header h1 {
-    position: relative;
+    position: absolute;
     text-align: left;
     font-size: 32px;
     color: lightcoral;
