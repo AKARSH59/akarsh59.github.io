@@ -11,7 +11,7 @@ body {
 
 .header {
     height: 60px;
-    background-color: black;
+    background-color: rgb(28, 147, 216);
 }
 
 .header h1 {
@@ -65,4 +65,32 @@ body {
     padding-top: 80px;
     font-size: 30px;
     color: #fff;
+    font-weight: 700;
 }
+
+.home-content h1{
+    color: rgb(22, 232, 247);
+    font-size: 62px;
+    font-weight: bolder;
+}
+
+.home-content h2{
+    color: #fff;
+    font-size: xx-large;
+    padding: 20px 10px;
+}
+
+.home-content p{
+    color: #fff;
+    font-size: x-large;
+}
+
+@media screen (max-width: 700px){
+    .
+    .header h1{
+        position: absolute;
+        text-align: center;
+        font-size: 45px;
+    }
+}
+    
