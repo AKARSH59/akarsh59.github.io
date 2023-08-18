@@ -3,7 +3,11 @@
     padding: 0;
 }
 
-body {}
+body {
+    background: url("/web/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
 .header {
     height: 60px;
@@ -53,6 +57,12 @@ body {}
     transition: 0.5s;
 }
 
-.nav-links ul li :hover::after {
+.nav-links ul li:hover::after {
     width: 100%;
+}
+
+.home-content h3{
+    padding-top: 80px;
+    font-size: 30px;
+    color: #fff;
 }
